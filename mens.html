@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MensPage</title>
+    <style>
+        .container{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 70px;
+        }
+         .container > div{
+            width: 30%;
+            height: auto;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        img{
+            display: block;
+            margin: auto;
+            max-width: 100%;
+            max-height: 350px;
+            margin-bottom: 25px;
+        }
+        p{
+            font-size: 25px;
+            margin: 0 0 15px 0;
+            color:rgb(117, 116, 116);
+        }
+        h2{
+            font-size: 30px;
+            margin: 0;
+            font-weight: 500;
+            color:rgb(57, 57, 57);
+        }
+        span{
+            font-weight: 100;
+            font-size: 30px;
+            color:rgb(117, 116, 116);
+            text-decoration: line-through;
+        }
+        span + span{
+            text-decoration: none;
+            margin-left: 10px;
+            font-weight: 400;
+            color: #1AB16C;
+        }
+
+        @media screen and (max-width:789px){
+            .container{
+            width: 100%;
+            display: flex;
+            gap: 30px;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 70px;
+        }
+        .container > div{
+            width: 50%;
+        }
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <img src="https://m.media-amazon.com/images/I/61ce8dQy9YL._UL1500_.jpg" alt="">
+            <h2>Pause</h2>
+            <p>Men Cotton Long Sleeves Shrug</p>
+            <h2>&#8377 359 <span>1499</span><span>-76%</span></h2>
+        </div>
+        <div>
+            <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQ8A58PoPKzAywr1qsi6p2BUzC-tzZvGg15c-TsHfkRfGsGrhRohTiX_p2Blff6T7qZnNqYFRp0A-QaQjkXJLZcLc6iF2JFwJ89uM35l8liSQmgXb_P7wPrcw&usqp=CAE" alt="">
+            <h2>JUBINATION</h2>
+            <p>Men Wool Sleeveless Sweater Pack Of 1</p>
+            <h2>&#8377 799 <span>1499</span><span>-47%</span></h2>
+        </div>
+    </div>
+</body>
+</html>
