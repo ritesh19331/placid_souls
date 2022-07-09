@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page - git collaboration</title>
+    <style>
+        body {
+            width: 99%;
+            height: auto;
+            background: #912AD6;
+            background: -webkit-radial-gradient(bottom right, #912AD6, #5A88FE);
+            background: -moz-radial-gradient(bottom right, #912AD6, #5A88FE);
+            background: radial-gradient(to top left, #912AD6, #5A88FE);
+        }
+        #main {
+            width: 30%;
+            height: auto;
+            background-color: #F1F1F1;
+            border-radius: 10px;
+            display: grid;
+            grid-template-rows: 30% 40%;
+            grid-template-columns: repeat(1, 1fr); 
+            gap: 2%;
+            padding: 3%;
+            margin: 2.9% auto;
+        }
+       
+        #main div {
+            width: 95%;
+            padding: 10px;
+            margin-bottom: 30px;
+            color: gray;
+            font-size: 20px;
+            margin-bottom: 35px;
+        }
+        #main>div>form {
+            width: 95%;
+        }
+        #main h2 {
+            font-size: 45px;
+            font-weight: 900;
+            text-align: center;
+            margin-bottom: -5px;
+        }
+        #header input {
+            border:none;
+            width: 90%;
+            padding: 4%;
+            color: gray;
+            border-bottom-style: 5px grey;
+            background-color: transparent;
+            border-bottom: 2px solid grey;
+            font-size: 15px;
+            margin-bottom: 10px;
+        }
+        #header>form>input:nth-last-child(1) {
+           width: 100%;
+           padding-top: 20px;
+           background: #912AD6; 
+           background: -webkit-radial-gradient(bottom right, #912AD6, #5A88FE);
+           background: -moz-radial-gradient(bottom right, #912AD6, #5A88FE);
+           background: radial-gradient(to top left, #912AD6, #5A88FE);
+           color: white;
+           border-bottom:none;
+           margin-top: 20px;
+           font-weight: bold;
+        }
+        .blue {
+            color: blue;
+        }
+        
+        #footer {
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="main">
+        <h2>Login</h2>
+        <div id="header">
+            <form action="">
+                <input type="email" value="Email">
+                <input type="txt" value="Password">
+                <input type="submit" value="Login">
+            </form>
+        </div>
+        <div id="footer">
+            <p >Forgot <span class="blue">Password</span>?</p>
+            <p>Don't have an account?<span class="blue">Sign Up</span></p>
+        </div>
+    </div>
+</body>
+</html>
